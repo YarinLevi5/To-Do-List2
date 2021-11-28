@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(to_do.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+
+table {
+    width: 400px;
+    margin-top: 150px;
+    padding: 30px;
+    text-align: center;
+    height: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#btn {
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    padding: 13px;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: white;
+}
+
+#btn:hover {
+    background-color: rgb(237, 243, 155);
+    color: black;
+    opacity: 0.7;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    border-bottom: solid 1px black;
+    text-align: left;
+    font-size: 14px;
+}

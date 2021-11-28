@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="toDoList.css">
+    <!-- the AOS website is giving animations for our elements in html -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td data-aos="fade-in" data-aos-duration="5000">
+                    <h1>to do list </h1>
+                </td>
+            </tr>
+            <tr>
+                <td data-aos="fade-left" data-aos-duration="7000">
+                    <label>Date : </label>
+                    <input type="date" id="date">
+                </td>
+            </tr>
+            <tr>
+                <td data-aos="fade-right" data-aos-duration="7000">
+                    <label>Task : </label>
+                    <input type="text" id="task">
+                </td>
+            </tr>
+            <tr>
+                <td data-aos="zoom-in-down" data-aos-delay="2000">
+                    <input type="button" value="Add" id="btn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="ul">
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="toDoList.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
